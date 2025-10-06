@@ -10,7 +10,7 @@ public class AuthController {
 
 	    @GetMapping("/")
 	    public String homePage() {
-	        return "home"; // home.jsp or home.html
+	      return "success";
 	    }
 
 	}
